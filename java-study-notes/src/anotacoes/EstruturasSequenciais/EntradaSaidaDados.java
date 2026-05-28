@@ -24,8 +24,12 @@ public class EntradaSaidaDados {
         System.out.println("Nome: " + nome3);
 
         System.out.println("Digite sua idade: ");
-        int idade4 = scanner.nextInt();
+        int idade4 = scanner.nextInt(); // Se for int nextint
         System.out.println("Idade: " + idade4);
+
+        System.out.println("Digite se voce esta empregado sim ou nao");
+        boolean empregado = scanner.nextBoolean();
+        System.out.println("Esta empregado: " + empregado);
 
 
     }
